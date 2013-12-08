@@ -2,14 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c88fadf6-fe3f-4545-9008-c88314de72ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/controllers/rss.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/access.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/css/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/css/student_list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/images/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/images/l_com_student_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/images/l_lists.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/images/s_com_student_list.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/images/s_lists.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/controller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/controllers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/controllers/lists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/controllers/table1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/helpers/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/helpers/student_list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/fields/createdby.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/fields/custom_field.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/fields/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/fields/timecreated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/fields/timeupdated.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/forms/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/forms/table1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/lists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/models/table1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/sql/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/sql/install.mysql.utf8.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/sql/uninstall.mysql.utf8.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/student_list.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/student_list.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/tables/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/tables/table1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/lists/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/lists/tmpl/default.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/lists/tmpl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/lists/view.html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/view.html.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/controller.php" afterPath="$PROJECT_DIR$/components/com_student_list/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/models/rss.php" afterPath="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/student_list.php" afterPath="$PROJECT_DIR$/components/com_student_list/student_list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="joomla6.iws" />
@@ -36,25 +80,7 @@
       <file leaf-file-name="view.html.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.rss.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="39" selection-start="602" selection-end="602" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="504">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="339" selection-end="339" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="198">
+            <state line="28" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="558">
               <folding />
             </state>
           </provider>
@@ -63,7 +89,16 @@
       <file leaf-file-name="rss.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/com_student_list/models/rss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="43" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.5263158" vertical-offset="188" max-vertical-offset="1152">
+            <state line="32" column="32" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6590389" vertical-offset="0" max-vertical-offset="1278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="34" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
@@ -87,21 +122,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/components/com_student_list/views/table1/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student_list/style.css" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/forms/table1form.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/forms/table1.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/RSS/tmpl/default.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/RSS/tmpl/default.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/RSS/view.html.php" />
-        <option value="$PROJECT_DIR$/components/com_student_list/student_list.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/forms/RSS.php" />
-        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/index.html" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
+        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/controllers/rss.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/controller.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/student_list.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
-        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
       </list>
     </option>
@@ -259,11 +294,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rss" />
+              <option name="myItemId" value="lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_student_list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lists" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tmpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_student_list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="joomla7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_student_list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,11 +387,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/administrator/components" />
+      <recent name="$PROJECT_DIR$/components/com_student_list/controllers" />
       <recent name="$PROJECT_DIR$/components/com_student_list/views/rss" />
+      <recent name="$PROJECT_DIR$/administrator/components" />
       <recent name="$PROJECT_DIR$/components/com_student_list/views/RSS/tmpl" />
       <recent name="$PROJECT_DIR$/components/com_student_list/models/forms" />
-      <recent name="$PROJECT_DIR$/components/com_student_list/views/RSS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components/com_student_list/models" />
@@ -322,7 +427,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16099072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16037151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -353,112 +458,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/com_newsfeeds/views/newsfeed/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5446224" vertical-offset="1350" max-vertical-offset="5580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/lists/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/views/lists/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="71.666664" vertical-offset="1935" max-vertical-offset="3852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/views/lists/view.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="43.185184" vertical-offset="1166" max-vertical-offset="2016">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/controllers/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.8518518" vertical-offset="50" max-vertical-offset="1170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/student_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/models/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.804878" vertical-offset="2415" max-vertical-offset="3276">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/models/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="53" selection-start="1871" selection-end="1871" vertical-scroll-proportion="1.4004576" vertical-offset="0" max-vertical-offset="2196">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/views/lists/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="565" selection-end="565" vertical-scroll-proportion="0.20905924" vertical-offset="0" max-vertical-offset="1872">
+        <state line="16" column="5" selection-start="565" selection-end="565" vertical-scroll-proportion="0.20905924" vertical-offset="0" max-vertical-offset="1872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="371" selection-end="410" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/models/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="220" selection-end="220" vertical-scroll-proportion="0.14634146" vertical-offset="0" max-vertical-offset="3276" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.25971144" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/student_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="563" selection-end="563" vertical-scroll-proportion="0.24713959" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="489" selection-end="489" vertical-scroll-proportion="0.2883295" vertical-offset="0" max-vertical-offset="874">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/views/lists/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.35926774" vertical-offset="314" max-vertical-offset="1674">
+        <state line="56" column="53" selection-start="1398" selection-end="1401" vertical-scroll-proportion="0.33293977" vertical-offset="726" max-vertical-offset="1782">
+          <folding>
+            <element signature="e#6#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/controllers/table1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.1853547" vertical-offset="162" max-vertical-offset="4050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/controllers/rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.26773456" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/models/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="30" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.014167651" vertical-offset="1158" max-vertical-offset="2196">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/controllers/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="664" selection-end="664" vertical-scroll-proportion="-15.333333" vertical-offset="0" max-vertical-offset="522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="39" selection-start="602" selection-end="602" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="504">
+        <state line="28" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="339" selection-end="339" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="198">
+        <state line="11" column="34" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/models/rss.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.5263158" vertical-offset="188" max-vertical-offset="1152">
+        <state line="32" column="32" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6590389" vertical-offset="0" max-vertical-offset="1278">
           <folding />
         </state>
       </provider>

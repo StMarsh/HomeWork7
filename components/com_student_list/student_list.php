@@ -14,5 +14,8 @@ jimport('joomla.application.component.controller');
 
 // Execute the task.
 $controller	= JController::getInstance('Student_list');
-$controller->execute(JFactory::getApplication()->input->get('task'));
+$controller->execute(JFactory::getApplication()->input->getCmd('task','display'));
 $controller->redirect();
+
+
+?>

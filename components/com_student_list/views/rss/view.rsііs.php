@@ -7,25 +7,26 @@
  * @author      StMarsh <milano_@mail.ru> - http://vk.com/id5666638
  */
 
-// No direct access
-defined('_JEXEC') or die;
-
 jimport('joomla.application.component.view');
 
-class Student_listViewRss extends JView {
+/**
+ * View class for a list of Student_list.
+ */
+class Student_listViewRss extends JView
+{
 
-
+    protected $item;
     /**
      * Display the view
      */
-    function display($tpl = null)
+    public function display($tpl = null)
     {
-        $model = &$this->getModel();
-        //$greeting = $model->getGreeting();
+        $model = $this->getModel();
         $detail = $model->getrecords();
-        $this->assignRef('detail', $detail);
-        //return $detail;
+        $this->item = 'Hello!';
+        return $detail;
         parent::display($tpl);
 
     }
 }
+

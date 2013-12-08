@@ -6,16 +6,21 @@
  * @license     GNU General Public License версии 2 или более поздней; Смотрите LICENSE.txt
  * @author      StMarsh <milano_@mail.ru> - http://vk.com/id5666638
  */
- 
-// No direct access
+
+// No direct access.
 defined('_JEXEC') or die;
 
-jimport('joomla.application.component.controller');
+require_once JPATH_COMPONENT.'/controller.php';
 
-class Student_listController extends JController
+/**
+ * Lists list controller class.
+ */
+class Student_listControllerRss extends Student_listController
 {
-    function display()
-    {
-        parent::display();
-    }
+
+	public function &getModel()
+	{
+		$model = parent::getModel('Rss', 'Student_listModel', array('ignore_request' => true));
+		return $model;
+	}
 }

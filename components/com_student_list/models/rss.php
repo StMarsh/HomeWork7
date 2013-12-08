@@ -11,19 +11,23 @@ defined('_JEXEC') or die('Restricted access');
 
 jimport('joomla.application.component.model');
 
-class Student_listModelRss extends JModelList {
+class Student_listModelRss extends JModel {
 
+    public  function getGreeting()
+        {
 
-    function getrecords(){
+        return 'Hello!';
+        }
+   function getrecords(){
         $db = JFactory::getDbo();
-        $query = "  SELECT * FROM #__student_list_table1";
+        $query = "SELECT name_lastname, id, photo, information  FROM #__student_list_table1";
         if(!$db->setQuery($query)) {
             JError::raiseError('500',$db->getErrorMsg());
         }
         $db->setQuery($query);
         $db_value = $db->loadObjectList();
 
-        //$this->showxml($db_value);
+        $this->showxml($db_value);
         return $db_value;
     }
     function showxml($db_value){
@@ -43,7 +47,10 @@ class Student_listModelRss extends JModelList {
             echo '<![CDATA['.$value->name_lastname.']]>';
             echo '</title>';
             echo '<link>http://localhost/joomla7/index.php/component/student_list/'.$value->id.'?view=table1</link>';
-            echo '<image>'.$value->photo.'</image>';
+            //echo '<image>'.$value->photo.'</image>';
+            /*echo '<image>';
+            echo '<![CDATA['.$value->photo.']]>';
+            echo '</image>';*/
             echo '<description>';
             echo '<![CDATA['.$value->information.']]>';
             echo '</description>';

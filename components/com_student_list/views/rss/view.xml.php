@@ -21,7 +21,7 @@ class Student_listViewRss extends JView
     {
         $model = &$this->getModel();
         $detail = $model->getrecords();
-        return $detail;
+        //return $detail;
 
     }
 }

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c88fadf6-fe3f-4545-9008-c88314de72ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/controllers/rss.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/access.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/css/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/assets/css/student_list.css" afterPath="" />
@@ -47,12 +45,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/edit.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/view.html.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/controller.php" afterPath="$PROJECT_DIR$/components/com_student_list/controller.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/models/rss.php" afterPath="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/student_list.php" afterPath="$PROJECT_DIR$/components/com_student_list/student_list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -80,25 +76,43 @@
       <file leaf-file-name="view.html.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="558">
+            <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="504">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rss.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="rss.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/com_student_list/models/rss.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6590389" vertical-offset="0" max-vertical-offset="1278">
+            <state line="34" column="25" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-14.666667" vertical-offset="216" max-vertical-offset="1152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view.xml.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="39" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.rss.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="504">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="34" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
+            <state line="12" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.123569794" vertical-offset="0" max-vertical-offset="874">
               <folding />
             </state>
           </provider>
@@ -122,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/components/com_student_list/models/forms/table1form.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/forms/table1.xml" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/RSS/tmpl/default.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/RSS/tmpl/default.xml" />
@@ -131,13 +144,14 @@
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/index.html" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.xml" />
-        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/controllers/rss.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/controller.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/student_list.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
-        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
         <option value="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
+        <option value="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
       </list>
     </option>
   </component>
@@ -463,23 +477,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/lists/tmpl/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="565" selection-end="565" vertical-scroll-proportion="0.20905924" vertical-offset="0" max-vertical-offset="1872" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="371" selection-end="410" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="576">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/administrator/components/com_student_list/models/lists.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="220" selection-end="220" vertical-scroll-proportion="0.14634146" vertical-offset="0" max-vertical-offset="3276" />
@@ -543,23 +540,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php">
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/lists/tmpl/default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="558">
+        <state line="16" column="5" selection-start="565" selection-end="565" vertical-scroll-proportion="-0.40069687" vertical-offset="525" max-vertical-offset="1872">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="377" selection-end="377" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="198">
+        <state line="28" column="0" selection-start="640" selection-end="640" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_student_list/models/rss.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="929" selection-end="929" vertical-scroll-proportion="0.6590389" vertical-offset="0" max-vertical-offset="1278">
+        <state line="34" column="25" selection-start="1146" selection-end="1146" vertical-scroll-proportion="-14.666667" vertical-offset="216" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="39" selection-start="410" selection-end="410" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="-14.666667" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="396" selection-end="396" vertical-scroll-proportion="0.123569794" vertical-offset="0" max-vertical-offset="874">
           <folding />
         </state>
       </provider>

@@ -9,4 +9,4 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 ?>
-<h2><?php print_r($this->detail); ?></h2>
+<!--<h2><?php /*print_r($this->detail); */?></h2>-->

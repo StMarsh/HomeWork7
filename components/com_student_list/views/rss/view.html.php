@@ -18,14 +18,11 @@ class Student_listViewRss extends JView {
     /**
      * Display the view
      */
-    function display($tpl = null)
+    //function display($tpl = null)
+    function display($cachable = false, $urlparams = false)
     {
         $model = &$this->getModel();
-        //$greeting = $model->getGreeting();
         $detail = $model->getrecords();
-        $this->assignRef('detail', $detail);
-        //return $detail;
-        parent::display($tpl);
 
     }
 }

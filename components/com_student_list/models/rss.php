@@ -13,12 +13,7 @@ jimport('joomla.application.component.model');
 
 class Student_listModelRss extends JModel {
 
-    public  function getGreeting()
-        {
-
-        return 'Hello!';
-        }
-   function getrecords(){
+    function getrecords(){
         $db = JFactory::getDbo();
         $query = "SELECT name_lastname, id, photo, information  FROM #__student_list_table1";
         if(!$db->setQuery($query)) {
@@ -28,7 +23,7 @@ class Student_listModelRss extends JModel {
         $db_value = $db->loadObjectList();
 
         $this->showxml($db_value);
-        return $db_value;
+        //return $db_value;
     }
     function showxml($db_value){
         ob_clean();
@@ -48,11 +43,9 @@ class Student_listModelRss extends JModel {
             echo '</title>';
             echo '<link>http://localhost/joomla7/index.php/component/student_list/'.$value->id.'?view=table1</link>';
             //echo '<image>'.$value->photo.'</image>';
-            /*echo '<image>';
-            echo '<![CDATA['.$value->photo.']]>';
-            echo '</image>';*/
             echo '<description>';
-            echo '<![CDATA['.$value->information.']]>';
+            echo '<![CDATA[<img height="200px" src="/joomla7/'.$value->photo.'">]]>';
+            echo '<![CDATA[<p>'.$value->information.'</p>]]>';
             echo '</description>';
 
             echo '</item>';

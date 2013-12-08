@@ -7,25 +7,21 @@
  * @author      StMarsh <milano_@mail.ru> - http://vk.com/id5666638
  */
 
+defined('_JEXEC') or die;
+
 jimport('joomla.application.component.view');
 
-/**
- * View class for a list of Student_list.
- */
-class Student_listViewRss extends JView
-{
+class Student_listViewRss extends JView {
 
-    protected $item;
+
     /**
      * Display the view
      */
-    public function display($tpl = null)
+    //function display($tpl = null)
+    function display($cachable = false, $urlparams = false)
     {
-        $model = $this->getModel();
+        $model = &$this->getModel();
         $detail = $model->getrecords();
-        $this->item = 'Hello!';
-        return $detail;
-        parent::display($tpl);
 
     }
 }

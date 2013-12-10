@@ -45,12 +45,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/edit.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/tmpl/index.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/administrator/components/com_student_list2/views/table1/view.html.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rsііs.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.rss.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xmlіі.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/tmpl/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/models/rss.php" afterPath="$PROJECT_DIR$/components/com_student_list/models/rss.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" afterPath="$PROJECT_DIR$/components/com_student_list/views/rss/view.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="joomla6.iws" />
     <ignored path=".idea/workspace.xml" />
